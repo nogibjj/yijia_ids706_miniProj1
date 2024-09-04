@@ -20,8 +20,8 @@ git clone git@github.com:nogibjj/yijia_ids706_miniProj1.git
 
 ### 2. Open the Repository in Visual Studio Code
 
-- **Reopen in Container**: Click on the green Dev Containers icon in the bottom-left corner of VS Code and select “Reopen in Container” to open the project with the `.devcontainer` configuration.
-- **Rebuild if Necessary**: If you have made changes to the `.devcontainer` configuration or encounter issues, use the “Rebuild Container” option from the same menu, or via the Command Palette (`Cmd + Shift + P` > “Dev Containers: Rebuild Container”). Ensure Docker is running on your computer.
+- Reopen in the container using the .devcontainer configuration.
+- Rebuild the container if necessary, ensuring Docker is running on your computer.
 
 ### 3. Install dependencies
 Run the following command to install all required dependencies:
