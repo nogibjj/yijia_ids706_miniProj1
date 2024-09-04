@@ -2,14 +2,12 @@
 
 ## Python Template
 
-This project demonstrates how to create a standard Python project scaffolding, dockerize the project, and set up a CI/CD process.
-
-[![CI](https://github.com/nogibjj/yijia_ids706_miniProj1/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/yijia_ids706_miniProj1/actions/workflows/hello.yml)
+This project is a Python project skeleton that includes a development container setup, a Makefile, and CI/CD workflows using GitHub Actions.
 
 ## File Structure
 
-- **`.devcontainer/`**: Contains the development container configuration (`devcontainer.json` and often a Dockerfile) to ensure consistency, portability, and isolation for the development environment.
-- **`Makefile`**: Provides commands for setup, testing, linting, and other tasks, making it easier to use command-line entries and integrate with CI/CD workflows.
+- **`.devcontainer/`**: Contains the development container configuration (`devcontainer.json` and a Dockerfile) to ensure a consistent development environment.
+- **`Makefile`**: Provides commands for setup, testing, linting, and formatting the project.
 - **`.github/workflows/`**: Contains CI/CD workflows for GitHub, which trigger actions like setup, linting, and testing when code is pushed to the repository.
 
 ## Setup
@@ -20,9 +18,10 @@ This project demonstrates how to create a standard Python project scaffolding, d
 git clone git@github.com:nogibjj/yijia_ids706_miniProj1.git
 ```
 
-### 2. Open the repository in Visual Studio Code
-- Reopen in container to use the .devcontainer configuration.
-- Rebuild the container if necessary, ensuring Docker is running on your computer.
+### 2. Open the Repository in Visual Studio Code
+
+- **Reopen in Container**: Click on the green Dev Containers icon in the bottom-left corner of VS Code and select “Reopen in Container” to open the project with the `.devcontainer` configuration.
+- **Rebuild if Necessary**: If you have made changes to the `.devcontainer` configuration or encounter issues, use the “Rebuild Container” option from the same menu, or via the Command Palette (`Cmd + Shift + P` > “Dev Containers: Rebuild Container”). Ensure Docker is running on your computer.
 
 ### 3. Install dependencies
 Run the following command to install all required dependencies:
@@ -41,3 +40,6 @@ make install
 ## CI/CD Setup
 - Location: .github/workflows/
 - Description: Contains GitHub Actions workflows for CI/CD, which automatically run setup, lint, and test actions on pushes to the GitHub repository.
+
+## CI/CD Badge
+[![CI](https://github.com/nogibjj/yijia_ids706_miniProj1/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/yijia_ids706_miniProj1/actions/workflows/hello.yml)
