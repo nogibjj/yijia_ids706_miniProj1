@@ -4,7 +4,7 @@
 
 This project demonstrates how to create a standard Python project scaffolding, dockerize the project, and set up a CI/CD process.
 
-![CI/CD](https://github.com/<username>/<repository>/actions/workflows/<workflow-file>.yaml/badge.svg)
+[![CI](https://github.com/nogibjj/yijia_ids706_miniProj1/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/yijia_ids706_miniProj1/actions/workflows/hello.yml)
 
 ## File Structure
 
@@ -17,7 +17,7 @@ This project demonstrates how to create a standard Python project scaffolding, d
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:nogibjj/yijia_ids706_miniProj1.git
 ```
 
 ### 2. Open the repository in Visual Studio Code
